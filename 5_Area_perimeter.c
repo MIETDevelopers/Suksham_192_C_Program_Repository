@@ -9,4 +9,5 @@ int main(){                 //Main Function
 	printf("\nPerimeter of Square: %f",(4*sideOfSquare));                        //printf function to print perimeter of square
 	printf("\nArea of Rectangle: %f",(legthOfRectangle*breadthOfRectangle));            //printing the value of Area of Rectangle
 	printf("\nPerimeter of Rectangle: %f",(2*(legthOfRectangle+breadthOfRectangle)));     //printf function to print perimeter of rectangle
-	return 0;            //Return function
+	return 0;            //Return functio}
+}
