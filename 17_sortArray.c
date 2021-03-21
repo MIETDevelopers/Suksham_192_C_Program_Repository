@@ -2,9 +2,8 @@
 //Program: Sorting an array using insertion sort
 #include <stdio.h>    //Pre-process directive to include standard input and output functions header file
 int main(){        //Main function
-    int n, i, j, temp; //variable declaration with a temp variable(datatype int)
+    int n, i, j, temp; //variable declaration with a temp variable
     int arr[64];    //array declaration
-    //This will determine the limit of values according to user input.
     printf("Enter number of elements\n");
     scanf("%d", &n);
 
@@ -23,10 +22,9 @@ int main(){        //Main function
                 j--;
             }
     }
-    //This will give us a sorted array
     printf("Sorted list in ascending order:\n");
     for (i = 0; i <= n - 1; i++){
         printf("%d\n", arr[i]);
     }
-    return 0;  //return function
+    return 0;  //Return function
 }
